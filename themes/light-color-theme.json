@@ -14,6 +14,7 @@
 		"editorLineNumber.foreground": "#ADADAD",
 		"editorStickyScroll.background": "#F3F3F3",
 		"focusBorder": "#D2D2D2",
+		"icon.foreground": "#555555",
 		"input.background": "#F3F3F3",
 		"list.activeSelectionBackground": "#0E6Bd6",
 		"list.focusHighlightForeground": "#FFFFFF",

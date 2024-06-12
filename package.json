@@ -1,8 +1,10 @@
 {
   "name": "modest-macos",
   "displayName": "Modest macOS",
-  "description": "A modest macos and xcode color theme",
-  "version": "0.0.1",
+  "description": "A modestly simple macOS and Xcode color theme",
+  "version": "0.1.0",
+  "repository": {"url": "https://github.com/p3l6/modest-macos"},
+  "publisher": "p3l6",
   "engines": {
     "vscode": "^1.85.0"
   },

@@ -1,23 +1,28 @@
-# modest-macos README
+# Modest-macOS Theme for VSCode
 
-## Working with Markdown
+A simple vscode theme with a similar vibe to Xcode and the macOS system.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+The main goal is not only to match Xcode's syntax colors, but the approximate scopes for which the colors apply.
+This includes attempting to mimic Xcodes differentiation between project defined types/functions and SDK defined types/functions.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Additional Recommended settings:
 
-## For more information
+```json
+"editor.semanticHighlighting.enabled": true,
+"editor.minimap.renderCharacters": false,
+"editor.stickyScroll.enabled": true,
+"explorer.sortOrder": "mixed",
+"window.autoDetectColorScheme": true,
+"workbench.activityBar.location": "top",
+"workbench.colorTheme": "Modest macOS - Light",
+"workbench.preferredLightColorTheme": "Modest macOS - Light",
+"workbench.preferredDarkColorTheme": "Modest macOS - Dark",
+"workbench.editor.tabActionLocation": "left",
+"workbench.editor.highlightModifiedTabs": true,
+```
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## TODO
 
-**Enjoy!**
-
-- [ ] Update readme
-- [ ] Update changelog
-- [ ] Add publisher
-- [ ] Add file icons (with script to export from sfsymbols.app)
-- [ ] Add product icons (same ^)
-- [ ] Delete quickstart
+- [ ] Update for true [semantic highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide) support. Remove force from recommended settings above.
+- [ ] Add file icon placeholders; with script to export and replace them from sfsymbols.app after install
+- [ ] Add product icons in the same way
